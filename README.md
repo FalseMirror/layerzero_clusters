@@ -1,7 +1,10 @@
 Using this code, I identified 210 clusters and 26.946 sybil wallets. My report is LayerZero Labs Sybil Report Issue.
 
 ## Preparation
-Move the CSV file with all transactions into the data folder and name it transactions.csv.
+1. Move the CSV file with all transactions into the data folder and name it transactions.csv.
+2. List all possible routes in data/address_track.csv (GitHub does not allow uploading files larger than 25MB).
+3. Insert all sybil wallets from LayerZero into data/ineligible_wallets.csv (GitHub does not allow uploading files larger than 25MB).
+
 
 ## Execution
 1. Run the main.py file.
